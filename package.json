@@ -1,0 +1,41 @@
+{
+  "name": "expr-eval-cli",
+  "version": "0.1.0",
+  "description": "A simple REPL for evaluating mathematical expressions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint index.js lib/ bin/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silentmatt/expr-eval-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/silentmatt/expr-eval-cli/issues"
+  },
+  "keywords": [
+    "eval",
+    "evaluate",
+    "math",
+    "expression",
+    "repl"
+  ],
+  "author": "Matthew Crumley",
+  "license": "MIT",
+  "bin": {
+    "expr-eval": "./bin/expr-eval"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "expr-eval": "^0.12.0",
+    "yargs": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-semistandard": "^7.0.0-beta.0",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-promise": "^3.3.1",
+    "eslint-plugin-standard": "^2.0.0"
+  }
+}
