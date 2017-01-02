@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "chalk": "^1.1.3",
-    "expr-eval": "^0.12.0",
+    "expr-eval": "^1.0.0",
     "yargs": "^6.3.0"
   },
   "devDependencies": {
