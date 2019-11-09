@@ -27,7 +27,7 @@
     "expr-eval": "./bin/expr-eval"
   },
   "dependencies": {
-    "chalk": "^2.0.0",
+    "chalk": "^3.0.0",
     "expr-eval": "^2.0.0",
     "yargs": "^14.0.0"
   },
